@@ -1,0 +1,11 @@
+CREATE TABLE Renter (
+RenterNumber PRIMARY KEY,
+firstName NVARCHAR (50) NOT NULL,
+middleName NVARCHAR (50) NOT NULL,
+lastName NVARCHAR (50) NOT NULL,
+userAddress NVARCHAR (100) NOT NULL,
+userState NVARCHAR (20) NOT NULL,
+userCity NVARCHAR (20) NOT NULL,
+postalCode NVARCHAR (20) NOT NULL,
+telephoneNumber NVARCHAR (20) NOT NULL,
+emailAddress NVARCHAR (20) NOT NULL,
